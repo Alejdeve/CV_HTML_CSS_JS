@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Curriculum vitae Manuel Alejandro García">
+        <meta name="keywords" content="marketing, web development, user experience, curriculum CV">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./img/LG-fondo-negro.ico">
+        <title>CV-Manuel Alejandro García</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="./img/Manu.jpg" alt="Foto perfil Manuel Alejandro García" class="profile-pic">
+                <h2>Manuel Alejandro García Rojas.</h2>
+                <h1>Marketing digital & Desarrollo Web</h1>
+                <h3>Teléfono: 635 98 85 11 | Correo electrónico: manuel.garcia999@hotmail.com</h3>
+                <div class="Linkedin">
+                    <a href="https://www.linkedin.com/in/malejandrogarc%C3%ADarojas/" target="_blank"><img src="./img/LINKEDIN.png" alt="logo LinkedIn" class="logos"></a>
+                    <a href="https://github.com/Alejdeve" target="_blank"><img src="./img/Github.png" alt="logo Github" class="logos"></a>
+                </div>
+            </header>
+            <div class="buttons">
+                <button onclick="showSection('perfil')">Perfil Profesional</button>
+                <button onclick="showSection('educacion')">Educación</button>
+                <button onclick="showSection('experiencia')">Experiencia Laboral</button>
+                <button onclick="showSection('habilidades')">Habilidades</button>
+                <button onclick="showSection('RRSS')">Redes Sociales</button>
+            </div>
+            <div id="perfil" class="section hidden">
+                <h2>Perfil Profesional</h2>
+                <p>Profesional en Contaduría Pública con experiencia en asesoría comercial y análisis de crédito en entidades financieras, tengo estudios en marketing digital e investigación de mercados. Poseo habilidades en gestión de campañas, SEO, y programación web con HTML, CSS, y JavaScript. tengo la experiencia y capacidad de coordinar equipos de trabajo y manejar presupuestos.</p>
+                <p>Me apasiona el marketing y el diseño, tengo claro que a medida que voy conociendo nuevos lenguajes y aplicaciones de programación puedo optimizar recursos y definir que herramientas son las adecuadas en cada proyecto que vaya a desarrollar. Me gusta capacitarme a diario investigando y aprendiendo por mi cuenta ya sea en Youtube, Udemy o domestika entre otros.</p>
+            </div>
+            <div id="educacion" class="section hidden">
+                <h2>Educación</h2>
+                <ul>
+                    <li><strong>Master en Marketing e Investigación de Mercados</strong>, Universitat de Barcelona, 2022</li>
+                    <li><strong>Grado Superior en Marketing Digital</strong>, 2023</li>
+                    <li><strong>Técnico en Asesoría Comercial y Operaciones en Entidades Financieras</strong>, SENA, 2011</li>
+                    <li><strong>Contaduría Pública</strong>, Universidad Santo Tomás de Tunja, 2014</li>
+                </ul>
+            </div>
+            <div id="experiencia" class="section hidden">
+                <h2>Experiencia Laboral</h2>
+                <ul>
+                    <li><strong>Técnico de Marketing</strong>, Crystal Bubble, septiembre 2022 - febrero 2023</li>
+                    <li><strong>Profesional I AML SARLAFT</strong>, Scotiabank Colpatria, mayo 2021 - septiembre 2021</li>
+                    <li><strong>Analista de Crédito</strong>, Compensar, agosto 2018 - mayo 2020</li>
+                    <li><strong>Analista de Cartera</strong>, Universidad Central, mayo 2017 - junio 2018</li>
+                    <li><strong>Analista de Créditos</strong>, Banco Comercial AV Villas, diciembre 2014 - diciembre 2016</li>
+                    <li><strong>Asesor de Servicios</strong>, Tuya SA, febrero 2014 - diciembre 2014</li>
+                    <li><strong>Asesor Comercial</strong>, Banco Agrario de Colombia, septiembre 2011 - enero 2014</li>                    
+                </ul>
+            </div>
+            <div id="habilidades" class="section hidden">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Marketing Digital y Estrategias de Comunicación</li>
+                    <li>Gestión y Optimización de Campañas (Meta, Google, LinkedIn)</li>
+                    <li>SEO y Análisis de Datos</li>
+                    <li>Programación Web (HTML, CSS, JavaScript)</li>
+                    <li>Diseño con: Photoshop, Illustrator, Figma, Canva, Capcut</li>
+                    <li>Idiomas: Español (Nativo), Inglés (Fluido)</li>
+                    <li>Comunicación Clara y Efectiva</li>
+                    <li>Escucha Activa y Empatía</li>
+                </ul>
+            </div>
+            <div id="RRSS" class="section hidden">
+                <h2>Cursos Adicionales</h2>
+                <ul>
+                    <li>Udemy</li>
+                    <li>Domestika</li>
+                    <li>W3schools</li>
+                </ul>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
